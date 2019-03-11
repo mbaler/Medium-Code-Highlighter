@@ -1,0 +1,102 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Medium Code Highlighter</title>
+        <script type="text/javascript" src="/highlightjs/highlight.pack.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+        <link type="text/css" rel="stylesheet" href="popup.css">
+        
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/monokai-sublime.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/monokai.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/atom-one-light.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/atom-one-dark.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/solarized-light.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/solarized-dark.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/dracula.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/github.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/tomorrow.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/tomorrow-night.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/xcode.css">
+        <link type="text/css" class="highlightStyle" rel="stylesheet" href="/highlightjs/styles/xt256.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1>
+                <span class="bracket">{ </span>
+                    <span id="medium">Medium</span> Code Highlighter
+                <span class="bracket"> }</span>
+            </h1>
+            <h3>Which theme do you want to use?</h3>
+            <div id="choices">
+                <div class="choice">
+                    <input type="radio" id="monokai-sublime" name="theme" value="monokai-sublime">
+                    <label for="monokai-sublime">monokai-sublime</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="monokai" name="theme" value="monokai">
+                    <label for="monokai">monokai</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="atom-one-light" name="theme" value="atom-one-light">
+                    <label for="atom-one-light">atom-one-light</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="atom-one-dark" name="theme" value="atom-one-dark">
+                    <label for="atom-one-dark">atom-one-dark</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="solarized-light" name="theme" value="solarized-light">
+                    <label for="solarized-light">solarized-light</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="solarized-dark" name="theme" value="solarized-dark">
+                    <label for="solarized-dark">solarized-dark</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="dracula" name="theme" value="dracula">
+                    <label for="dracula">dracula</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="github" name="theme" value="github">
+                    <label for="github">github</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="tomorrow" name="theme" value="tomorrow">
+                    <label for="tomorrow">tomorrow</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="tomorrow-night" name="theme" value="tomorrow-night">
+                    <label for="tomorrow-night">tomorrow-night</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="xcode" name="theme" value="xcode">
+                    <label for="xcode">xcode</label>
+                </div>
+                <div class="choice">
+                    <input type="radio" id="xt256" name="theme" value="xt256">
+                    <label for="xt256">xt256</label>
+                </div>
+            </div>
+            <div id="example-block">
+                <pre><code>
+// Example code...
+
+const a = 10;
+const btn = document.querySelector("#clickMe");
+
+// some comment here ... add click handler
+btn.addEventListener("click", () => {
+    const result = fooBar(15);
+    alert(`Look at this: ${result}`);
+    console.log(b);
+});
+
+function fooBar(argument1) {
+    console.log("fooBar called");
+    return argument1 - a;
+}
+                </code></pre>
+            </div>
+        </div>
+    </body>
+</html>

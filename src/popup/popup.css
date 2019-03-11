@@ -1,0 +1,58 @@
+html {
+    background-color: #f6f6f6;
+}
+
+div#container {
+    width: 350px;
+}
+
+h1 {
+    font-size: 20px;
+    border-radius: 7px;
+    background-color: #dfdfdf;
+    line-height: 30px;
+    padding: 5px 0;
+    margin: 0;
+    text-align: center;
+}
+
+#medium {
+    font-family: serif;
+    font-size: 23px;
+}
+
+span.bracket {
+    color: #e30066;
+    font-size: 26px;
+    line-height: 26px;
+}
+
+h3 {
+    color: #242424;
+    margin: 8px 0 6px 0;
+}
+
+div#choices {
+    display: inline-block;
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+div.choice {
+    float: left;
+    width: 50%;
+}
+
+input[type=radio] {
+    vertical-align: bottom;
+}
+
+div#example-block pre {
+    border-radius: 7px;
+    margin-top: 11px;
+}
+
+code {
+    font-size: 12px;
+}
