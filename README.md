@@ -1,5 +1,5 @@
 <h1 align="center">
-	<img src="icons/128active.png" alt="Medium Code Highlighter">
+	<img src="src/icons/128active.png" alt="Medium Code Highlighter">
 	<br>
 	<br>
     Medium Code Highlighter
