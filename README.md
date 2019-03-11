@@ -15,10 +15,11 @@ Install it from the [Chrome Webstore](https://chrome.google.com/webstore/detail/
 
 ---
 
-<div style="text-align:center">
-	<img src="media/screenshotpromo3.jpg" width="61%" style="padding-right:80px">
-	<img src="media/popupPreview.png" width="27%">
-</div>
+<p align="center">
+	<img src="media/screenshotpromo3.jpg" width="64%">
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<img src="media/popupPreview.png" width="28%">
+</p>
 <br>
 
 A chrome browser extension which adds code syntax highlighting to Medium articles.  
