@@ -1,11 +1,7 @@
-<h1 align="center">
-	<img src="src/icons/128active.png" alt="Medium Code Highlighter">
-	<br>
-	<br>
-    Medium Code Highlighter
-    <br>
-	<br>
-</h1>
+<p align="center">
+	<img src="src/icons/128active.png" alt="Medium Code Highlighter" />
+</p>
+<h1 align="center">Medium Code Highlighter</h1>
 
 [![Install from Chrome Webstore](media/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/medium-code-highlighter/apdaagmhepellbjjbnaljaocodjjjjfd)
 
@@ -16,9 +12,9 @@ Install it from the [Chrome Webstore](https://chrome.google.com/webstore/detail/
 ---
 
 <p align="center">
-	<img src="media/screenshotpromo3.jpg" width="64%">
+	<img src="media/screenshotpromo3.jpg" width="64%" />
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-	<img src="media/popupPreview.png" width="28%">
+	<img src="media/popupPreview.png" width="28%" />
 </p>
 <br>
 
