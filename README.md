@@ -3,6 +3,13 @@
 </p>
 <h1 align="center">Medium Code Highlighter</h1>
 
+<p align="center">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/mbaler/medium-code-highlighter.svg?style=popout" />
+	<img alt="GitHub License" src="https://img.shields.io/github/license/mbaler/medium-code-highlighter.svg?style=popout" />
+	<img alt="Chrome Web Store Version" src="https://img.shields.io/chrome-web-store/v/apdaagmhepellbjjbnaljaocodjjjjfd.svg" />
+	<img alt="Chrome Web Store Rating" src="https://img.shields.io/chrome-web-store/stars/apdaagmhepellbjjbnaljaocodjjjjfd.svg?style=popout" />
+</p>
+
 [![Install from Chrome Webstore](media/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/medium-code-highlighter/apdaagmhepellbjjbnaljaocodjjjjfd)
 
 Syntax highlighting on Medium articles that's simple and easy via a browser extension.  
