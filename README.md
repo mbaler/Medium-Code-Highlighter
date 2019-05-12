@@ -8,6 +8,7 @@
 	<img alt="GitHub License" src="https://img.shields.io/github/license/mbaler/medium-code-highlighter.svg?style=popout" />
 	<img alt="Chrome Web Store Version" src="https://img.shields.io/chrome-web-store/v/apdaagmhepellbjjbnaljaocodjjjjfd.svg" />
 	<img alt="Chrome Web Store Rating" src="https://img.shields.io/chrome-web-store/stars/apdaagmhepellbjjbnaljaocodjjjjfd.svg?style=popout" />
+	<img alt="Chrome Web Store Users" src="https://img.shields.io/chrome-web-store/users/apdaagmhepellbjjbnaljaocodjjjjfd.svg?label=chrome%20users&color=00c6a5&style=popout">
 </p>
 
 [![Install from Chrome Webstore](media/ChromeWebStore_Badge_v2_340x96.png)](https://chrome.google.com/webstore/detail/medium-code-highlighter/apdaagmhepellbjjbnaljaocodjjjjfd)
