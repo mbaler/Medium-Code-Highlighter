@@ -24,6 +24,9 @@ Install it from the [Chrome Webstore](https://chrome.google.com/webstore/detail/
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	<img src="media/popupPreview.png" width="28%" />
 </p>
+<p align="center">
+	<img src="media/gif_promo.gif" />
+</p>
 <br>
 
 A chrome browser extension which adds code syntax highlighting to Medium articles.  
