@@ -1,9 +1,25 @@
 /* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
 
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: white !important;
+  color: #4d4d4c;
+  padding: 1em;
+}
+
+.hljs span {
+  color: #4d4d4c;
+}
+
+.hljs code {
+  background: rgb(255, 255, 255, 0) !important;
+}
+
 /* Tomorrow Comment */
 .hljs-comment,
 .hljs-quote {
-  color: #8e908c;
+  color: #8e908c !important;
 }
 
 /* Tomorrow Red */
@@ -15,7 +31,7 @@
 .hljs-selector-class,
 .hljs-regexp,
 .hljs-deletion {
-  color: #c82829;
+  color: #c82829 !important;
 }
 
 /* Tomorrow Orange */
@@ -27,12 +43,12 @@
 .hljs-params,
 .hljs-meta,
 .hljs-link {
-  color: #f5871f;
+  color: #f5871f !important;
 }
 
 /* Tomorrow Yellow */
 .hljs-attribute {
-  color: #eab700;
+  color: #eab700 !important;
 }
 
 /* Tomorrow Green */
@@ -40,27 +56,19 @@
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-  color: #718c00;
+  color: #718c00 !important;
 }
 
 /* Tomorrow Blue */
 .hljs-title,
 .hljs-section {
-  color: #4271ae;
+  color: #4271ae !important;
 }
 
 /* Tomorrow Purple */
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #8959a8;
-}
-
-.hljs {
-  display: block;
-  overflow-x: auto;
-  background: white !important;
-  color: #4d4d4c;
-  padding: 1em;
+  color: #8959a8 !important;
 }
 
 .hljs-emphasis {
