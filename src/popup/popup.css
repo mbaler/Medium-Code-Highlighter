@@ -51,6 +51,7 @@ input[type=radio] {
 div#example-block pre {
     border-radius: 7px;
     margin-top: 11px;
+    padding: 1em;
 }
 
 code {

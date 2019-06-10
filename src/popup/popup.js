@@ -1,10 +1,12 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     const radioInputs = document.querySelectorAll("input[type='radio'][name='theme']");
     const choices = document.querySelectorAll("div.choice");
-    const example = document.querySelector("div#example-block pre");
-    const allStylesheets = document.querySelectorAll("link.highlightStyle");
+    const head = document.head;
 
+    const example = document.querySelector("div#example-block pre");
+    hljs.highlightBlock(example);
     
+
     // show preferred theme as selected, highlight example text w/ said theme
     chrome.storage.sync.get(["theme"], (result) => {
         document.querySelector(`input#${result.theme}`).checked = true;
@@ -56,12 +58,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
      * private
      */
     function _highlightExample(style) {
-        // first disable all styles other than current desired
-        allStylesheets.forEach((link) => {
-            link.disabled = link.href.match(`highlightjs/styles/${style}.css`) === null;
-        });
+        // first delete any existing stylesheets
+        const toDelete = document.querySelectorAll("link.highlightStyle");
+        if (toDelete.length > 0) {
+            toDelete.forEach((link) => {
+                link.parentNode.removeChild(link);
+            });
+        }
 
-        // highlight
-        hljs.highlightBlock(example);
+        // then add one for new style
+        const newLink = document.createElement("link");
+        newLink.type = "text/css";
+        newLink.rel = "stylesheet";
+        newLink.className = "highlightStyle";
+        newLink.href = `/highlightjs/styles/${style}.css`;
+        head.appendChild(newLink);
     }
 });
