@@ -26,7 +26,12 @@ chrome.runtime.onMessage.addListener(
  * @returns {boolean}
  */
 function isMedium() {
-    // check logo element, as many pages are on domains other than "medium"
+    // first, easy domain check
+    if (window.location.hostname === "medium.com") {
+        return true;
+    }
+
+    // second, check logo element, as some pages are on domains other than "medium"
     const logoElts = document.querySelectorAll("div.js-metabarLogoLeft > a.siteNav-logo");
 
     if (logoElts.length === 0) {
