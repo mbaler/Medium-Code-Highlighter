@@ -31,17 +31,19 @@ function isMedium() {
         return true;
     }
 
-    // second, check logo element, as some pages are on domains other than "medium"
+    // second, see if this is a non-medium domain, but still medium content
+    const metaApp = document.querySelector("meta[name='twitter:app:name:iphone']");
+    if (metaApp !== null && metaApp.getAttribute("content") === "Medium") {
+        return true;
+    }
+
+    // third, check logo element
     const logoElts = document.querySelectorAll("div.js-metabarLogoLeft > a.siteNav-logo");
-
-    if (logoElts.length === 0) {
-        return false;
-    }
-    if (logoElts[0].getAttribute("href") !== "https://medium.com/") {
-        return false;
+    if (logoElts.length > 0 && logoElts[0].getAttribute("href") === "https://medium.com/") {
+        return true;
     }
 
-    return true;
+    return false;
 }
 
 /**

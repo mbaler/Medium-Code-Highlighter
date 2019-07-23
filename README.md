@@ -37,7 +37,7 @@ Forget the black-on-gray blobs of code in articles which don't embed gists or im
 - Adds code syntax highlighting to `<pre>` blocks in Medium articles.
 - Highlighting theme is selectable and can be changed on-the-fly (via extension popup upon icon-click) from a handful of popular themes.
   - Theme preference links to Chrome account.
-- Works on all Medium articles, regardless of domain (i.e. `medium.com`, `medium.freecodecamp.org`, `hackingandslacking.com`, etc.)
+- Works on all Medium articles, regardless of domain (i.e. `medium.com`, `blog.apollographql.com`, `hackingandslacking.com`, etc.)
 <br>
 
 **Note**  

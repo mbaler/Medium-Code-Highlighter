@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Medium Code Highlighter",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Add code syntax highlighting to Medium articles",
     "author": "Mac Baler",
 
